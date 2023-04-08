@@ -1,0 +1,240 @@
+body {
+	background-color: #F5F5F5!important;
+	margin: 0 auto;
+}
+
+.color-white {
+	color: white !important;
+}
+
+header {
+	background-color: #abdbe3;
+	height: 50px;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right: 0;
+}
+
+header .show-text {
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header .show-icon {
+    display: block;
+}
+
+.dropdown-content a,
+.dropdown-content p {
+	padding: 12px 16px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.dropdown-content p {
+    margin: 0;
+}
+
+.dropdown-content hr {
+    margin: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.left {
+	float: left;
+	padding: 10px;
+}
+
+.left h2 {
+	margin: 0;
+}
+
+.right {
+	float: right;
+	padding: 10px;
+}
+
+.right p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.content {
+	padding: 2% 5%;
+}
+
+.navigation {
+	float: left;
+	width: 20%;
+	background-color: #212529;
+	padding: 1rem;
+}
+
+.navigation ul {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul a li {
+	padding: 10px 0;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.mailbox,
+.mail,
+.new-message {
+	float: right;
+	width: 78%;
+}
+
+.mailbox,
+.new-message {
+	background-color: white;
+	height: 80vh;
+}
+
+.new-message {
+	padding: 10px;
+}
+
+.navigation ul .active li {
+	background-color: #abdbe3;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.navigation ul a .newmessage {
+	text-align: center;
+	background-color: #0D6EFD;
+	padding: 10px 0;
+	border-radius: 5px;
+}
+
+.navigation ul a{
+	text-decoration: none;
+	color: black;
+}
+
+.top-buttons p {
+	display: inline-block;
+}
+
+table tr td input,
+table tr td select {
+	padding: 5px;
+}
+
+table tr td select {
+	width: 100%;
+}
+
+.message-text {
+	height: 40vh;
+	width: 90%;
+}
+
+textarea {
+	width: 95%;
+	height: 40vh;
+}
+
+.message-sender {
+	width: 0 !important;
+}
+
+.table {
+	display: table;
+	margin: none !important;
+}
+
+.row {
+	display: table-row  !important;
+}
+
+.cell {
+	display: table-cell;
+	padding: 10px;
+}
+
+.row:hover {
+	background-color: #e5e5e5;
+}
+
+.table a {
+	color: black;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.message-details {
+	margin: 0;
+}
+
+.btn {
+	margin-bottom: 10px;
+	color: white !important;
+}
+
+.btn-success {
+	--bs-btn-font-size: 0.9rem !important;
+	--bs-btn-hover-bg: #198754 !important;
+	--bs-btn-active-bg: #198754 !important;
+}
+
+.btn-info {
+	--bs-btn-font-size: 0.9rem !important;
+	--bs-btn-hover-bg: #0dcaf0 !important;
+	--bs-btn-active-bg: #0dcaf0 !important;
+}
+
+.btn-warning {
+	--bs-btn-font-size: 0.9rem !important;
+	--bs-btn-hover-bg: #ffc107 !important;
+	--bs-btn-active-bg: #ffc107 !important;
+}
+
+.btn-mailbox {
+	--bs-btn-font-size: 0.7rem !important;
+	margin-bottom: 0;
+}
+
+.message-body td,
+.mail td {
+	padding-right: 15px !important;
+}
+
+.empty {
+	margin: 20px;
+}
